@@ -12,8 +12,7 @@ namespace SummitSchool.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            string s="a";
-            return new string[] { s, "value2" };
+            return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
